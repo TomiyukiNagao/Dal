@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-tx
-src/test/test_litecoin
-src/test/test_litecoin_fuzzy
-src/qt/test/test_litecoin-qt
+src/Dal
+src/Dald
+src/Dal-cli
+src/Dal-tx
+src/test/test_Dal
+src/test/test_Dal_fuzzy
+src/qt/test/test_Dal-qt
 
 # autoreconf
 Makefile.in
@@ -80,13 +80,13 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-litecoin-qt
-litecoin-Qt.app
+Dal-qt
+Dal-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+Dal-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -98,7 +98,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_litecoin.coverage/
+test_Dal.coverage/
 total.coverage/
 coverage_percent.txt
 
